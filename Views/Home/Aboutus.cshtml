@@ -1,0 +1,20 @@
+﻿
+@model Jspotal.Models.Employee
+
+<h1>About Us</h1>
+
+@{
+    <img  src="@Model.Employee_image" width="300px" height="250px">
+    
+        <ul class="list-group" style=" border:solid; ">
+            <li class="list-group-item">Emp_ID :@Model.Employee_id</li>
+            <li class="list-group-item">Name :@Model.Employee_name</li>
+        <li class="list-group-item">Description :@Model.Employee_Description</li>
+            <li class="list-group-item">Email :@Model.Employee_email</li>
+            <li class="list-group-item">Phone Number :@Model.Employee_phone</li>
+        </ul>
+     
+        <br /> <br />
+  
+    
+}
